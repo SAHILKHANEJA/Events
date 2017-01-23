@@ -1,7 +1,7 @@
 Setting up environment
 
 1)install pip .
-2)create virtualenv.
+2)create virtualenv,and activate it.
 3)install django.
 4)install mysqldb.
 5) run commmand python manage.py makemigrations
