@@ -13,7 +13,6 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth import logout
 from django.views.decorators.csrf import csrf_exempt
 from django.core import serializers
-from webapp.tasks import add ,send_simple_message
 
 
 @login_required(login_url='/polls/loginid/')
